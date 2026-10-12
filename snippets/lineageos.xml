@@ -20,6 +20,7 @@
   <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_vendor_apn" path="vendor/apn" groups="lineage" remote="github" revision="main" />
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
 
   <!-- Legacy AOSP additions -->
@@ -127,6 +128,18 @@
   <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" />
 
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
+
+  <!-- POCO F7 -->
+  <project name="calyx-onyx/android_device_xiaomi_onyx" path="device/xiaomi/onyx" remote="github" />
+  <project name="calyx-onyx/android_device_xiaomi_onyx-miuicamera" path="device/xiaomi/onyx-miuicamera" remote="github" />
+  <project name="calyx-onyx/android_kernel_xiaomi_onyx" path="kernel/xiaomi/onyx" remote="github" />
+  <project name="calyx-onyx/android_kernel_xiaomi_onyx-devicetrees" path="kernel/xiaomi/onyx-devicetrees" remote="github" />
+  <project name="calyx-onyx/android_kernel_xiaomi_onyx-modules" path="kernel/xiaomi/onyx-modules" remote="github" />
+  <project name="calyx-onyx/packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" remote="github" />
+  <project name="calyx-onyx/proprietary_vendor_xiaomi_onyx" path="vendor/xiaomi/onyx" remote="github" />
+  <project name="calyx-onyx/proprietary_vendor_xiaomi_onyx-miuicamera" path="vendor/xiaomi/onyx-miuicamera" remote="github" />
+
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" groups="lineage" remote="github" revision="lineage-24.0" />
 
   <!-- SHIFTphone 8 -->
   <project name="CalyxOS/device_shift_otter" path="device/shift/otter" remote="gitlab" />
