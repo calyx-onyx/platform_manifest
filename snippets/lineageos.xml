@@ -34,6 +34,7 @@
   <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/device_qcom_sepolicy_vndr_legacy-um" path="device/qcom/sepolicy_vndr/legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8750" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
   <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab" />
@@ -45,6 +46,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="lineage" remote="gitlab" />
@@ -58,15 +60,27 @@
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8650_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8650_dataipa" path="hardware/qcom-caf/sm8650/dataipa" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8650_display" path="hardware/qcom-caf/sm8650/display" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8750/audio/agm" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8750/audio/graphservices" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8750/audio/primary-hal" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_dataipa" path="hardware/qcom-caf/sm8750/dataipa" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_display-core" path="hardware/qcom-caf/sm8750/display/core" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8750/display/hal" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
+  <project name="LineageOS/android_vendor_qcom_opensource_display-intf" path="hardware/qcom-caf/sm8750/display/intf" groups="lineage" remote="github" revision="lineage-24.0-caf-sm8750" />
   <project name="CalyxOS/platform_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_thermal-legacy-um" path="hardware/qcom-caf/thermal-legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" path="vendor/qcom/opensource/audio-hal/st-hal-ar" groups="lineage" remote="github" revision="lineage-24.0" />
   <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal-ar-legacy" path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audio" path="vendor/qcom/opensource/commonsys/audio" groups="lineage" remote="github" revision="lineage-24.0" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_fm" path="vendor/qcom/opensource/commonsys/fm" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_wfd" path="vendor/qcom/opensource/commonsys/wfd" groups="lineage" remote="gitlab" />
+  <project name="LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/audio" groups="lineage" remote="github" revision="lineage-24.0" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_core-utils-sys" path="vendor/qcom/opensource/core-utils-sys" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_core-utils-vendor" path="vendor/qcom/opensource/core-utils-vendor" groups="lineage" remote="gitlab" />
