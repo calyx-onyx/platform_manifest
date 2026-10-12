@@ -1001,7 +1001,7 @@
   <project path="system/secure_element" name="platform/system/secure_element" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/see/authmgr" name="platform/system/see/authmgr" groups="pdk" />
-  <project path="system/sepolicy" name="CalyxOS/platform_system_sepolicy" groups="pdk" remote="gitlab" />
+  <project path="system/sepolicy" name="calyx-onyx/platform_system_sepolicy" groups="pdk" remote="github" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/software_defined_vehicle/common" name="platform/system/software_defined_vehicle/common" groups="swcar,pdk" />
   <project path="system/software_defined_vehicle/health_monitor" name="platform/system/software_defined_vehicle/health_monitor" groups="swcar,pdk" />
